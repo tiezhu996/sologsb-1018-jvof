@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "svelte-check --tsconfig ./tsconfig.json && vite build",
+    "test": "node scripts/run-core-tests.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {

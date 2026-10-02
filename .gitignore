@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.local
+.DS_Store
+
+# 测试运行器临时产物
+.test-bundle.mjs
+.*-test-ts.mjs
